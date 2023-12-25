@@ -1,0 +1,11 @@
+/.idea/.gitignore
+/.idea/aws.xml
+/.idea/compiler.xml
+/.idea/dbnavigator.xml
+/.idea/encodings.xml
+/HELP.md
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/readme
+/.idea/vcs.xml
+/target/
