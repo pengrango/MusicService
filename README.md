@@ -25,7 +25,7 @@ Our application leverages Spring Boot WebFlux for efficient handling of high loa
 
 ## Testing
 
-The project includes both unit and integration tests. Mocked objects are used for unit testing, while `WebMockServer` mocks external dependencies for integration testing.
+The project includes both unit and integration tests. Mocked objects are used for unit testing, while `MockWebServer` mocks external dependencies for integration testing.
 Below are some mbIds to used in manual test.
 
 | UUID                                 | Comments                                                     |
