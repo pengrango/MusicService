@@ -48,5 +48,6 @@ Below are some mbIds to used in manual test.
 
 - Configurations via Environment Variables.
 - Containerization with Docker for cloud deployment.
+- Retry logic
 - JVM tuning for optimized performance.
 - Enhanced caching strategies, possibly integrating Redis.
