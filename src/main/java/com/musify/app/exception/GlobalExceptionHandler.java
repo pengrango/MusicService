@@ -13,13 +13,19 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(WebClientResponseException.class)
-    public ResponseEntity<String> resourceNotFound(WebClientResponseException ex) {
+    public ResponseEntity<String> handleWebClientResponseException(WebClientResponseException ex) {
         if (ex.getStatusCode().is4xxClientError()) {
             logger.error("Client error", ex);
             return ResponseEntity.status(ex.getStatusCode()).body("Error in Client request.");
         } else {
             logger.error("Internal error", ex);
-            return ResponseEntity.status(ex.getStatusCode()).body("Internal error.");
+            return ResponseEntity.status(ex.getStatusCode()).body("Error in external service.");
         }
+    }
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<String> handleOtherExceptions(Exception ex) {
+        logger.error("Internal error", ex);
+        return ResponseEntity.status(500).body("Internal error.");
     }
 }
