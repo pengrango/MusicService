@@ -20,7 +20,6 @@ mvn spring-boot:run
 
 Our application leverages Spring Boot WebFlux for efficient handling of high loads, utilizing reactive programming and non-blocking I/O. Key features include:
 
-- **Resiliency**: .
 - **Scalability**: Ideal for cloud environments (e.g., AWS ECS), supporting auto-scaling.
 - **Performance**: Uses Hazelcast, an in-memory, distributed cache, to speed up response times and reduce external service load. Key benefits include synchronized data across nodes and good stability during maintenance work such as rolling update in ECS.
 
