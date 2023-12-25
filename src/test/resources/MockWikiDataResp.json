@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Q2831": {
+      "pageid": 3813,
+      "ns": 0,
+      "title": "Q2831",
+      "lastrevid": 2030100257,
+      "modified": "2023-12-15T06:38:36Z",
+      "type": "item",
+      "id": "Q2831",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Michael Jackson"
+        }
+      },
+      "aliases": {
+        "en": [
+        ]
+      },
+      "claims": {},
+      "sitelinks": {
+        "bmwiki": {
+          "site": "bmwiki",
+          "title": "Michael Jackson",
+          "badges": [],
+          "url": "https://bm.wikipedia.org/wiki/Michael_Jackson"
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Michael Jackson",
+          "badges": [
+            "Q17437796"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Michael_Jackson"
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "迈克尔·杰克逊",
+          "badges": [],
+          "url": "https://zh.wikipedia.org/wiki/%E8%BF%88%E5%85%8B%E5%B0%94%C2%B7%E6%9D%B0%E5%85%8B%E9%80%8A"
+        }
+      }
+    }
+  }
+}

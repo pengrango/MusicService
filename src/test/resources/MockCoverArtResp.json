@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "approved": true,
+      "comment": "",
+      "thumbnails": {
+        "small": "http://coverartarchive.org/release/6402fbc9-cb27-4306-96eb-10e6dc489aaf/12592766269-250.jpg",
+        "large": "http://coverartarchive.org/release/6402fbc9-cb27-4306-96eb-10e6dc489aaf/12592766269-500.jpg"
+      },
+      "back": false,
+      "types": [
+        "Front"
+      ],
+      "front": true,
+      "image": "http://coverartarchive.org/release/6402fbc9-cb27-4306-96eb-10e6dc489aaf/12592766269.jpg",
+      "id": "12592766269",
+      "edit": 36978491
+    }
+  ],
+  "release": "https://musicbrainz.org/release/6402fbc9-cb27-4306-96eb-10e6dc489aaf"
+}
