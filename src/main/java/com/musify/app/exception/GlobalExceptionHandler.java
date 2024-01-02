@@ -16,7 +16,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     @ExceptionHandler(WebClientResponseException.class)
     public ResponseEntity<String> handleWebClientResponseException(WebClientResponseException ex) {
         if (ex.getStatusCode().is4xxClientError()) {
-            logger.error("Client error", ex);
             return ResponseEntity.status(ex.getStatusCode()).body("Error in Client request.");
         } else if (ex.getStatusCode().is5xxServerError()) {
             logger.error("The dependency service returns an error", ex);
